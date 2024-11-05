@@ -1,0 +1,135 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Responsive Watches Website</title>
+	<link rel="stylesheet" href="swiper-bundle.min.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="#" class="nav__logo">WATCHES</a>
+
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link">HOME</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#" class="nav__link">ABOUT</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#" class="nav__link">FEATURED</a>
+					</li>
+
+					<li class="nav__item">
+						<a href="#" class="nav__link">NEW</a>
+					</li>
+				</ul>
+
+				<div class="nav__social">
+					<a href="https://www.facebook.com/" target="_blank" class="nav__social-link">
+						<i class='bx bxl-facebook-circle'></i>
+					</a>
+
+					<a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+						<i class='bx bxl-instagram-alt'></i>
+					</a>
+
+					<a href="https://twitter.com/" target="_blank" class="nav__social-link">
+						<i class='bx bxl-twitter'></i>
+					</a>
+				</div>
+
+
+				<div class="nav__close" id="nav-close">
+					<i class='bx bx-x'></i>
+				</div>
+			</div>
+
+			<div class="nav__toggle" id="nav-toggle">
+				<i class='bx bx-menu'></i>
+			</div>
+		</nav>
+	</header>
+
+	<main class="main">
+		<section class="home">
+			<div class="home__container container">
+				<div class="home__data">
+					<div class="home__content">
+						<div class="home__stars">
+							<i class='bx bxs-star'></i>
+							<i class='bx bxs-star'></i>
+							<i class='bx bxs-star'></i>
+							<i class='bx bxs-star'></i>
+							<i class='bx bxs-star-half'></i>
+						</div>
+						
+						<h1 class="home__title">
+							Baume Custom <br>
+							Timepiece Small <br>
+							Second
+						</h1>
+						
+						<h3 class="home__price">$620</h3>
+
+						<a href="#" class="home__button">
+							ADD TO CART
+							<i class='bx bx-chevron-right'></i>
+						</a>
+					</div>
+				</div>
+
+				
+				<div class="home__images">
+					<div class="home__swiper swiper">
+						<div class="swiper-wrapper">
+							<article class="home__article swiper-slide">
+								<img src="images/watches-1.png" alt="image" class="home__img">
+							</article>
+				
+							<article class="home__article swiper-slide">
+								<img src="images/watches-2.png" alt="image" class="home__img">
+							</article>
+				
+							<article class="home__article swiper-slide">
+								<img src="images/watches-3.png" alt="image" class="home__img">
+							</article>
+						</div>
+					</div>
+				
+					<div class="swiper-paggination"></div>
+				</div>
+				
+				<div class="home__info">
+					<img src="images/watches-border.png" alt="image" class="home__info-img">
+				
+					<div class="home__info-content">
+						<p class="home__info-description">
+							Personalized watches are a job of quality
+							and commitment. Each piece is the result of a
+							work of co-creation of innovation and responsible
+							sensitivity for users.
+						</p>
+				
+						<a href="#" class="home__button-link">LEARN MORE</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<script src="gsap.min.js"></script>
+	<script src="swiper-bundle.min.js"></script>
+	<script src="js/script.js" type="module"></script>
+</body>
+
+</html>
